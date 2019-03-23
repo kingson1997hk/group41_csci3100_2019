@@ -1,0 +1,27 @@
+<template>
+  <div>
+    <!-- nav bar -->
+    <nav>
+      <router-link to="/HelloWorld">Home</router-link>
+      <router-link to="/Open">Open</router-link>
+      <router-link to="/Search">Search</router-link>
+      <router-link to="/Info">My Info</router-link>
+      <router-link to="/">Logout</router-link>
+    </nav>
+
+    <h1>{{ msg }}</h1>
+  </div>
+
+    
+</template>
+
+<script>
+export default {
+  name: 'Open',
+  data () {
+    return {
+      msg: 'I am going to open a new gathering room!!!'
+    }
+  }
+}
+</script>
